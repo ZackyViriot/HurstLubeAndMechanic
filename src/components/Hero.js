@@ -30,16 +30,16 @@ const Hero = () => {
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto animate-slide-up" style={{ animationDelay: '300ms' }}>
             Professional service you can trust, with over 20 years of experience in automotive care
           </p>
-          <div className="space-x-4 animate-slide-up" style={{ animationDelay: '600ms' }}>
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 animate-slide-up" style={{ animationDelay: '600ms' }}>
             <a
               href="#services"
-              className="inline-block bg-red-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-red-700 transform hover:-translate-y-1 transition-all duration-300 hover:shadow-lg"
+              className="w-full sm:w-auto bg-red-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-red-700 transform hover:-translate-y-1 transition-all duration-300 hover:shadow-lg text-center"
             >
               Explore Our Services
             </a>
             <a
               href="#contact"
-              className="inline-block bg-transparent text-white px-8 py-4 rounded-lg text-lg font-semibold border-2 border-white hover:bg-white hover:text-red-600 transform hover:-translate-y-1 transition-all duration-300 hover:shadow-lg"
+              className="w-full sm:w-auto bg-transparent text-white px-8 py-4 rounded-lg text-lg font-semibold border-2 border-white hover:bg-white hover:text-red-600 transform hover:-translate-y-1 transition-all duration-300 hover:shadow-lg text-center"
             >
               Contact Us
             </a>
