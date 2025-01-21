@@ -30,16 +30,17 @@ const Hero = () => {
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto animate-slide-up" style={{ animationDelay: '300ms' }}>
             Professional service you can trust, with over 20 years of experience in automotive care
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 animate-slide-up" style={{ animationDelay: '600ms' }}>
+          {/* Buttons */}
+          <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6 animate-slide-up w-full max-w-2xl mx-auto px-6" style={{ animationDelay: '600ms' }}>
             <a
               href="#services"
-              className="w-full sm:w-auto bg-red-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-red-700 transform hover:-translate-y-1 transition-all duration-300 hover:shadow-lg text-center"
+              className="w-full sm:w-[220px] h-12 inline-flex items-center justify-center bg-red-600 text-white text-base font-semibold rounded-lg hover:bg-red-700 transform hover:-translate-y-1 transition-all duration-300 hover:shadow-xl"
             >
               Explore Our Services
             </a>
             <a
               href="#contact"
-              className="w-full sm:w-auto bg-transparent text-white px-8 py-4 rounded-lg text-lg font-semibold border-2 border-white hover:bg-white hover:text-red-600 transform hover:-translate-y-1 transition-all duration-300 hover:shadow-lg text-center"
+              className="w-full sm:w-[220px] h-12 inline-flex items-center justify-center bg-transparent text-white text-base font-semibold border-2 border-white rounded-lg hover:bg-white hover:text-red-600 transform hover:-translate-y-1 transition-all duration-300 hover:shadow-xl"
             >
               Contact Us
             </a>
