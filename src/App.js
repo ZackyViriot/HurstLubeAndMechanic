@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import Pricing from './components/Pricing';
 import Reviews from './components/Reviews';
-import Location from './components/Location';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -17,7 +16,6 @@ function App() {
         <Services />
         <Pricing />
         <Reviews />
-        <Location />
         <Contact />
       </main>
       <Footer />
