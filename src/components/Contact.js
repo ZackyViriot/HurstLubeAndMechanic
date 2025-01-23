@@ -170,13 +170,21 @@ const Contact = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                       </svg>
                       <div>
-                        <span className="block font-medium">Phone:</span>
+                        <span className="block font-medium">Contact:</span>
                         <a
-                          href="tel:+18172829988"
-                          className="hover:text-red-600 transition-colors"
-                          aria-label="Call us at (817) 282-9988"
+                          href="tel:+18175106500"
+                          className="hover:text-red-600 transition-colors block"
+                          aria-label="Call us at (817) 510-6500"
                         >
-                          (817) 282-9988
+                          Phone: (817) 510-6500
+                        </a>
+                        <span className="block">Fax: (817) 510-6502</span>
+                        <a
+                          href="mailto:Hurstlube@gmail.com"
+                          className="hover:text-red-600 transition-colors block"
+                          aria-label="Email us at Hurstlube@gmail.com"
+                        >
+                          Email: Hurstlube@gmail.com
                         </a>
                       </div>
                     </li>
@@ -189,6 +197,16 @@ const Contact = () => {
                         <span>Monday - Friday: 8:00 AM - 6:00 PM<br />
                         Saturday: 8:00 AM - 5:00 PM<br />
                         Sunday: Closed</span>
+                      </div>
+                    </li>
+                    <li className="flex items-start">
+                      <svg className="w-5 h-5 mr-2 mt-0.5 text-red-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                      </svg>
+                      <div>
+                        <span className="block font-medium">Business Information:</span>
+                        <span>Family Owned & Operated<br />
+                        Fleet Accounts Available for Business</span>
                       </div>
                     </li>
                   </ul>
